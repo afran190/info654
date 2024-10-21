@@ -1,0 +1,138 @@
+
+    /* Name Selector */
+    p {
+        font-size: 16px;
+        color: #d7d5c5;
+        line-height: 1.6;
+        font-family: fantasy;
+    }
+    
+    /* ID Selector */
+    #footer {
+        background-color: #36134f;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        border-top: 3px solid #797979;
+    }
+    
+    /* Class Selector */
+    .title {
+        font-style: italic;
+        color: #d5c1c4;
+        text-align: center;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    .content {
+        text-align: center;
+        color: #d5c1c4;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    
+    /* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #68606c;
+    
+    font-family: fantasy;
+}
+
+/* Header Styles */
+header {
+    background-color: #36134f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4cadaf;
+}
+
+h3 {
+    font-size: 20px;
+    color: #4cadaf;
+}
+
+/* List Styles */
+ul, ol {
+    margin-left: 20px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Link Styles */
+a {
+    color: #628e79;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #81bd91;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+}
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
